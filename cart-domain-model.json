@@ -2193,6 +2193,7 @@
       "BillingAddress": {
         "description": "Value object representing the postal location used for billing purposes; immutable and replaced as a whole.",
         "required": [
+          "city",
           "countryCode"
         ],
         "fields": [
